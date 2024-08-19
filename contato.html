@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+    <style>
+        body {
+            font-size: 200%;
+            text-align: center;
+            background-color: rgb(21, 21, 47);
+            color: antiquewhite;
+        }
+        table {
+            border: 1px solid red;
+            margin-left: 20%;
+            height: 100%;
+        }
+        th, td {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table width="60%" >
+            <tr>
+                <th><label for="nome" width="100px" >Nome:</label></th>
+                <td><input type="text" name="nome" id="nome" value="Alessandro S. Bonfim"></td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email">e-mail:</label>
+                </th>
+                <td>
+                    <input type="text" name="email" id="email" value="Alessandrodasilvadobonfim@gmail.com" aria-expanded="true">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="nome" width="100px" >Celular:</label></th>
+                <td><input type="text" name="nome" id="nome" value="77 988530566"></td>
+            </tr>
+            <tr>
+            <tr>
+                <th>
+                    <label for="mdg">Digite uma mensagem:</label>
+                </th>
+                <td><textarea name="msg" rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Enviar</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
